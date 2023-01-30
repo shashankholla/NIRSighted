@@ -1,0 +1,2 @@
+read_verilog uart_lfsr.v ../common/util.v
+synth_ice40 -top uart_lfsr_top -json uart_lfsr.json

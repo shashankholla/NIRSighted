@@ -1,0 +1,44 @@
+################################
+# i2c - has both FPGA and hm01b0
+################################
+set_io hm01b0_sda 3
+set_io hm01b0_scl 4
+
+################################
+# HM01B0 interface
+################################
+set_io hm01b0_pixdata[1] 23
+set_io hm01b0_pixdata[3] 25
+set_io hm01b0_vsync      26
+set_io hm01b0_mck        27
+set_io hm01b0_pixdata[2] 31
+set_io hm01b0_pixdata[4] 32
+set_io hm01b0_pixdata[7] 34
+set_io hm01b0_pixdata[0] 36
+set_io hm01b0_hsync      37
+set_io hm01b0_pixclk     38
+set_io hm01b0_pixdata[6] 39
+set_io hm01b0_pixdata[5] 40
+
+
+################################
+# LEDs
+################################
+set_io leds[0]    44
+set_io leds[1]    45
+set_io leds[2]    46
+set_io leds[3]    47
+
+
+################################
+# MCU-to-FPGA debug gpio lines
+################################
+set_io mcu_debug_signal 19
+
+################################
+# unsorted
+################################
+set_io spi_cs 16
+set_io osc_12m 35
+set_io uart_tx 11
+set_io vsync_out 12

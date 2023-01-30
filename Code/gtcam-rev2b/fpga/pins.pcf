@@ -1,0 +1,69 @@
+# Default PCF file which names all of the FPGA pins and leaves them unconfigured.
+
+################################
+# LEDs
+################################
+set_io -nowarn leds[0]    44
+set_io -nowarn leds[1]    45
+set_io -nowarn leds[2]    46
+set_io -nowarn leds[3]    47
+
+
+################################
+# STM dcmi interface
+################################
+set_io -nowarn dcmi_d[0]  6
+set_io -nowarn dcmi_d[1]  9
+set_io -nowarn dcmi_d[2]  10
+set_io -nowarn dcmi_d[3]  11
+set_io -nowarn dcmi_d[4]  12
+set_io -nowarn dcmi_d[5]  13
+set_io -nowarn dcmi_d[6]  18
+set_io -nowarn dcmi_d[7]  19
+
+set_io -nowarn dcmi_pclk  20
+set_io -nowarn dcmi_href  21
+set_io -nowarn dcmi_vref  48
+
+
+################################
+# i2c - has both FPGA and hm01b0
+################################
+set_io -nowarn sda 3
+set_io -nowarn scl 4
+
+
+################################
+# HM01B0 interface
+################################
+set_io -nowarn hm01b0_pixdata[1] 23
+set_io -nowarn hm01b0_pixdata[3] 25
+set_io -nowarn hm01b0_vsync      26
+set_io -nowarn hm01b0_mck        27
+set_io -nowarn hm01b0_pixdata[2] 31
+set_io -nowarn hm01b0_pixdata[4] 32
+set_io -nowarn hm01b0_pixdata[7] 34
+set_io -nowarn hm01b0_pixdata[0] 36
+set_io -nowarn hm01b0_hsync      37
+set_io -nowarn hm01b0_pclk       38
+set_io -nowarn hm01b0_pixdata[6] 39
+set_io -nowarn hm01b0_pixdata[5] 40
+
+
+################################
+# unsorted
+################################
+set_io -nowarn spi_cs 16
+set_io -nowarn osc_12m 35
+
+
+################################
+# unused
+################################
+set_io -pullup yes unused_14 14
+set_io -pullup yes unused_15 15
+set_io -pullup yes unused_17 17
+set_io -pullup yes unused_28 28
+set_io -pullup yes unused_41 41
+set_io -pullup yes unused_42 42
+set_io -pullup yes unused_43 43

@@ -1,0 +1,16 @@
+module test;
+
+
+   reg osc_12m;
+
+   wire hm01b0_sda;
+   
+   wire hm01b0_scl;
+   
+   hm01b0_jpeg_top dut(input osc_12m,                  
+                       inout hm01b0_sda, 
+                       inout hm01b0_scl,                                   
+		       );
+   
+
+endmodule

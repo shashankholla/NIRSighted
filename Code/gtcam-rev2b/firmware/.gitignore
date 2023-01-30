@@ -1,0 +1,8 @@
+paths.mk
+build
+
+*.map
+*.elf
+
+# temporary per-computer files made by STM32CubeMX
+*.mxproject

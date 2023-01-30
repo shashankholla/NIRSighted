@@ -1,0 +1,7 @@
+*.asc
+*.bin
+*.json
+*.vvp
+*.vcd
+
+cells_sim.v

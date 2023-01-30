@@ -1,0 +1,18 @@
+
+
+################################
+# LEDs
+################################
+set_io -nowarn leds[0]    44
+set_io -nowarn leds[1]    45
+set_io -nowarn leds[2]    46
+set_io -nowarn leds[3]    47
+
+
+################################
+# unsorted
+################################
+set_io -nowarn spi_cs 16
+set_io -nowarn osc_12m 35
+set_io -nowarn tx 11
+set_io -nowarn vsync 12

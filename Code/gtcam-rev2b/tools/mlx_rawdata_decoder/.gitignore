@@ -1,0 +1,4 @@
+# ignore executable generated in this dir
+mlx_rawdata_decoder
+
+*.csv

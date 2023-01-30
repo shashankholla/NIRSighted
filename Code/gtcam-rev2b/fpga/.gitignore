@@ -1,0 +1,4 @@
+# ignore files for yosys
+*.json
+*.asc
+*.bin
